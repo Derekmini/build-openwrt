@@ -28,15 +28,15 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # git clone https://github.com/garypang13/luci-app-dnsfilter package/luci-app-dnsfilter
 
 # Add luci-app-godproxy
-# git clone https://github.com/project-lede/luci-app-godproxy package/luci-app-godproxy
+# git clone --depth=1 https://github.com/project-lede/luci-app-godproxy package/luci-app-godproxy
 
 # Add Jerrykuku's packages(vssr/jd-daily/argon theme)
-rm -rf package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/lua-maxminddb package/jerrykuku/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-argon-config package/jerrykuku/luci-app-argon-config
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/jerrykuku/luci-app-jd-dailybonus
-git clone https://github.com/jerrykuku/luci-app-vssr package/jerrykuku/luci-app-vssr
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/jerrykuku/luci-theme-argon
+# rm -rf package/lean/luci-theme-argon
+# git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb package/jerrykuku/lua-maxminddb
+# git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/jerrykuku/luci-app-argon-config
+git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus package/jerrykuku/luci-app-jd-dailybonus
+git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr package/jerrykuku/luci-app-vssr
+# git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/jerrykuku/luci-theme-argon
 
 # Add Lienol's Packages
 # git clone --depth=1 https://github.com/Lienol/openwrt-package package/Lienol-package
@@ -51,7 +51,7 @@ git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/openwr
 # git clone --depth=1 https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 
 # Add luci-app-adguardhome
-git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
+# git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 
 # Add luci-app-diskman
 # git clone --depth=1 https://github.com/SuLingGG/luci-app-diskman package/luci-app-diskman
@@ -64,7 +64,7 @@ git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/lu
 # git clone --depth=1 https://github.com/lisaac/luci-lib-docker package/lisaac/luci-lib-docker
 
 # Add smartdns
-# git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
+# git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 
 
 
