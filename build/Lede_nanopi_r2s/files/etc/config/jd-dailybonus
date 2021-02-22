@@ -1,0 +1,16 @@
+
+config global
+	option out '0'
+	option stop '100'
+	option auto_update '1'
+	option auto_run_time '0'
+	option version '1.93'
+	option cookie 'pt_key=AAJgK52PADAtDWzHicnZYHHsEE6LlNPRX_auS_T8v1XYlze4-wvHctkZRLxJkmL18W8Mwz4reTk;pt_pin=13180012736;'
+	option serverurl 'sct'
+	option tg_token '1691088906:AAFr7-KbtDHDvVVF3eK77A9kIOwOlKI6pLE'
+	option tg_userid '1486410918'
+	option auto_update_time '17'
+	option remote_url 'https://gitee.com/jerrykuku/staff/raw/master/JD_DailyBonus.js'
+	option cookie2 'pt_key=AAJgGRBeADDcKR1iDz1AdBMiI8hAguFgJUGjhDq6Dl_INZ-CAIEsPVEitCvXdOXFHCvRjdZV2rY;pt_pin=hyni6789;'
+	option auto_run '0'
+
