@@ -38,3 +38,15 @@ config proxy
 	option remark 'r2s-ssh'
 	option remote_port '32222'
 
+config proxy
+	option type 'http'
+	option domain_type 'subdomain'
+	option subdomain 'r2s-aghome'
+	option local_ip '10.2.1.1'
+	option local_port '3000'
+	option proxy_protocol_version 'disable'
+	option use_encryption '1'
+	option use_compression '1'
+	option remark 'r2s-aghome'
+	option enable '0'
+

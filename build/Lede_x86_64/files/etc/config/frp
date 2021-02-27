@@ -62,3 +62,15 @@ config proxy
 	option enable '1'
 	option local_ip '10.3.1.1'
 
+config proxy
+	option type 'http'
+	option domain_type 'subdomain'
+	option subdomain 'lede-aghome'
+	option local_ip '10.3.1.1'
+	option local_port '3000'
+	option proxy_protocol_version 'disable'
+	option use_encryption '1'
+	option use_compression '1'
+	option remark 'lede-aghome'
+	option enable '0'
+
