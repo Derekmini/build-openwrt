@@ -1,0 +1,38 @@
+
+config interface 'loopback'
+	option ifname 'lo'
+	option proto 'static'
+	option ipaddr '127.0.0.1'
+	option netmask '255.0.0.0'
+
+config globals 'globals'
+	option ula_prefix 'fd1f:b142:4a00::/48'
+
+config interface 'lan'
+	option type 'bridge'
+	option ifname 'eth1'
+	option proto 'static'
+	option ipaddr '10.2.1.1'
+	option netmask '255.255.255.0'
+	option gateway '10.2.1.1'
+	option dns '10.2.1.1 114.114.114.114 223.5.5.5'
+	option delegate '0'
+
+config device 'lan_eth1_dev'
+	option name 'eth1'
+	option macaddr '02:69:14:3b:9e:bc'
+
+config interface 'wan'
+	option ifname 'eth0'
+	option _orig_ifname 'eth0'
+	option _orig_bridge 'false'
+	option proto 'pppoe'
+	option username '13955579628'
+	option password '123123'
+	option ipv6 'auto'
+	option keepalive '0'
+
+config device 'wan_eth0_dev'
+	option name 'eth0'
+	option macaddr '02:69:14:3b:9e:bb'
+
