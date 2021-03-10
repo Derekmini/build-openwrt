@@ -14,6 +14,7 @@ config frp 'common'
 	option vhost_https_port '32143'
 	option enabled '1'
 	option server_addr 'frp3.freefrp.net'
+	option user 'op'
 
 config proxy
 	option enable '1'
@@ -49,7 +50,7 @@ config proxy
 	option use_encryption '1'
 	option use_compression '1'
 	option remark 'op-jd'
-	
+
 config proxy
 	option enable '1'
 	option type 'tcp'
@@ -95,3 +96,4 @@ config proxy
 	option use_compression '1'
 	option subdomain 'ds-jellyfin'
 	option remark 'ds-jellyfin'
+
