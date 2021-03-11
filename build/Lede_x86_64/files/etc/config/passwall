@@ -161,7 +161,7 @@ config nodes '6b5a2531863c42d794fcc35e462e0942'
 config subscribe_list
 	option enabled '1'
 	option remark '速鹰(USA)'
-	option url 'https://sub.cm/NbTlUjp'
+	option url 'https://subcon.dlj.tf/sub?target=v2ray&url=https%3A%2F%2Fdingyue.suying666.info%2Flink%2FBTs9E3vUf0wt0pu1%3Fsub%3D3&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&include=%E7%BE%8E%E5%9B%BD&filename=%E9%80%9F%E9%B9%B0(USA)&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false'
 
 config socks 'daeaff3d2c2d4f78a1ce0185c7e1a380'
 	option enabled '1'
