@@ -21,8 +21,8 @@ config global_haproxy
 
 config global_delay
 	option auto_on '0'
-	option start_daemon '0'
 	option start_delay '1'
+	option start_daemon '1'
 
 config global_forwarding
 	option process '0'
@@ -71,7 +71,8 @@ config global_subscribe
 
 config auto_switch
 	option testing_time '1'
-	option enable '0'
+	option enable '1'
+	option restore_switch '1'
 
 config nodes '696cd32c1d5149ee95fd1b3accbad6df'
 	option remarks '分流总节点'
@@ -80,10 +81,10 @@ config nodes '696cd32c1d5149ee95fd1b3accbad6df'
 	option TVB 'nil'
 	option default_proxy '0'
 	option domainStrategy 'IPIfNonMatch'
-	option ads '_blackhole'
-	option China '_direct'
-	option Telegram 'nil'
-	option youtube 'nil'
+	option ads 'nil'
+	option China 'nil'
+	option Telegram '_default'
+	option youtube '_default'
 	option netflix 'nil'
 	option default_node 'nil'
 
