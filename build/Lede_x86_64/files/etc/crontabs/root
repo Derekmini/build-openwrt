@@ -1,3 +1,3 @@
 0 4 * * * /etc/coremark.sh
 */40 * * * * /etc/init.d/frp restart
-*/5 * * * * sh /etc/config/my_watchdog.sh
+*/1 * * * * sh /etc/config/my_watchdog.sh
