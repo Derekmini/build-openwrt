@@ -152,7 +152,7 @@ config global
 	option socks_enabled '1'
 	option tcp_proxy_mode 'chnroute'
 	option enabled '1'
-	option tcp_node '87bc0ddfb51243719ccc31b76a882540'
+	option tcp_node '4c2557f587c64771902cebe28fd3e05e'
 
 config global_haproxy
 	option balancing_enable '1'
