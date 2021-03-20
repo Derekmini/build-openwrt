@@ -1,3 +1,2 @@
 */40 * * * * /etc/init.d/frp restart
 * * * * * sh /etc/config/my_watchdog.sh
-* * * * * sleep 30; sh /etc/config/my_watchdog.sh
